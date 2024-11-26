@@ -99,7 +99,7 @@ def get_current_weather():
         response = requests.get(weather_url, params=params)
         response.raise_for_status()
         weather_data = response.json()
-
+        # test update commit git
         # Tampilkan informasi cuaca
         print(f"\nCuaca saat ini di {location['name']}, {location['country']} {location['state']}:")
         print(f"Suhu: {weather_data['main']['temp']:.1f}°C")
