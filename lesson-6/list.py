@@ -108,3 +108,6 @@ newlist = list(mytuple)
 newlist.append('Neil')
 newtuple = tuple(newlist)
 print(newtuple)
+
+my_range = range(1,len(my_array.tolist())+1)
+print(list(my_range))
